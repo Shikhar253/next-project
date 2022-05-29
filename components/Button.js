@@ -10,6 +10,9 @@ export const btnStyles = css`
     props.bgcolor === "true" ? "var(--color-white)" : "var(--color-text)"};
   padding: ${(props) => props.padding};
   align-self: flex-start;
+  :hover {
+    color: black;
+  }
 `;
 const Btn = styled(motion.a)`
   ${btnStyles}

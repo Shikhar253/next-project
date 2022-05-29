@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>URL Shortener</title>
+        <title>TIF TASK</title>
       </Head>
       <Header />
       <Features />
