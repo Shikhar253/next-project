@@ -77,6 +77,11 @@ const SocialLinks = styled("div")`
     width: 2rem;
     display: flex;
     align-items: center;
+    :hover {
+      img {
+        color: var(--color-primary-1);
+      }
+    }
   }
 `;
 
