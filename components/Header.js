@@ -9,7 +9,7 @@ const HeaderWrapper = styled.header`
   display: flex;
   flex-direction: column;
   background: no-repeat 50% url("/images/people-working.svg");
-  background-position: bottom 100px;
+  background-position: right -40px bottom -100px;
   @media only screen and (min-width: 1500px) {
     height: auto;
   }
@@ -34,6 +34,7 @@ const HeaderWrapper = styled.header`
         padding:4rem 2rem;
     `}
 `;
+
 const NavWrapper = styled.nav`
   display: flex;
   justify-content: space-between;
