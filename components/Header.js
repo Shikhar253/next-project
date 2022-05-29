@@ -9,7 +9,7 @@ const HeaderWrapper = styled.header`
   display: flex;
   flex-direction: column;
   background: no-repeat 50% url("/images/people-working.svg");
-  background-position: right -40px top 100px;
+  background-position: bottom 100px;
   @media only screen and (min-width: 1500px) {
     height: auto;
   }
