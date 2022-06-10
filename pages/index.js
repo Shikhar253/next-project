@@ -1,3 +1,4 @@
+import { QueryClient, QueryClientProvider, useQuery } from "react-query";
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
